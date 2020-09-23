@@ -7,7 +7,7 @@ public class FinalAnalizadorLexico {
 
 	public static void main(String[] args) throws IOException {
 		
-		String expresion = "if 2+3+a then";
+		String expresion = "if 2+3+a then ";
 		
 		AnalizadorLexico lexico = new AnalizadorLexico(new StringReader(expresion));
 		lexico.yylex();
